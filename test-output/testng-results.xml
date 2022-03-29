@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44913" started-at="2022-03-29T11:28:52 IST" finished-at="2022-03-29T11:29:37 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44913" started-at="2022-03-29T11:28:52 IST" finished-at="2022-03-29T11:29:37 IST">
+      <class name="com.qa.tests.ScenarioOne">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="setup" is-config="true" duration-ms="8045" started-at="2022-03-29T11:28:44 IST" finished-at="2022-03-29T11:28:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="beforeClass" is-config="true" duration-ms="1709" started-at="2022-03-29T11:28:52 IST" finished-at="2022-03-29T11:28:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="beforeMethod" is-config="true" duration-ms="127" started-at="2022-03-29T11:28:53 IST" finished-at="2022-03-29T11:28:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.ScenarioOne.verifyAddingOptionToCartAndCheckout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAddingOptionToCartAndCheckout()[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="verifyAddingOptionToCartAndCheckout" duration-ms="18625" started-at="2022-03-29T11:28:54 IST" finished-at="2022-03-29T11:29:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingOptionToCartAndCheckout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-03-29T11:29:12 IST" finished-at="2022-03-29T11:29:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ScenarioOne@32a068d1]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-03-29T11:29:37 IST" finished-at="2022-03-29T11:29:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.ScenarioOne -->
+      <class name="com.qa.tests.ScenarioTwo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.ScenarioTwo@71a794e5]" name="beforeClass" is-config="true" duration-ms="1723" started-at="2022-03-29T11:29:12 IST" finished-at="2022-03-29T11:29:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.ScenarioTwo@71a794e5]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-03-29T11:29:14 IST" finished-at="2022-03-29T11:29:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.ScenarioTwo.verifyAddingAndRemovingOptionsFromCartAndCheckout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAddingAndRemovingOptionsFromCartAndCheckout()[pri:0, instance:com.qa.tests.ScenarioTwo@71a794e5]" name="verifyAddingAndRemovingOptionsFromCartAndCheckout" duration-ms="22694" started-at="2022-03-29T11:29:14 IST" finished-at="2022-03-29T11:29:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingAndRemovingOptionsFromCartAndCheckout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.ScenarioTwo@71a794e5]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-29T11:29:37 IST" finished-at="2022-03-29T11:29:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qa.tests.ScenarioTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

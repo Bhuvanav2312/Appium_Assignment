@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<parameter name="platformName" value="Android" />
+	<parameter name="udid" value="emulator-5554" />
+	<parameter name="deviceName" value="Pixel_4" />
+
+	<test name="Test">
+
+		<classes>
+			<class name="com.qa.tests.ScenarioOne" />
+			<class name="com.qa.tests.ScenarioTwo" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
